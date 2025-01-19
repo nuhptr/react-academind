@@ -11,16 +11,15 @@ console.log(user.age)
 user.greet()
 
 class User {
-    constructor(name, age) {
-        this.name = name
-        this.age = age
-    }
+    name = "max"
+    age = 30
 
     greet() {
         console.log("Hi!")
-        console.log(this.age)
+        console.log(this.age, this.name)
     }
 }
 
 const user1 = new User("max", 30)
 console.log(user1)
+user1.greet()
