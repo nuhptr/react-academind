@@ -1,20 +1,31 @@
-const App = () => {
+import reactImg from "./assets/react-core-concepts.png"
+import { CORE_CONCEPTS } from "./constant"
+
+import CoreConcept from "./components/CoreConcept"
+import Header from "./components/Header"
+import TabButton from "./components/TabButton"
+
+export default function App() {
     return (
         <div>
-            <header>
-                <img src="assets/react-core-concepts.png" alt="Stylized atom" />
-                <h1>React Essentials</h1>
-                <p>
-                    Fundamental React concepts you will need for almost any app you are going to
-                    build!
-                </p>
-            </header>
-
+            <Header img={reactImg} />
             <main>
-                <h2>Time to get started!</h2>
+                <section id="core-concepts">
+                    <h2>Core Concepts</h2>
+                    <ul>
+                        <CoreConcept concept={CORE_CONCEPTS[0]} />
+                        <CoreConcept concept={CORE_CONCEPTS[1]} />
+                        <CoreConcept concept={CORE_CONCEPTS[2]} />
+                        <CoreConcept concept={CORE_CONCEPTS[3]} />
+                    </ul>
+                </section>
+                <section id="examples">
+                    <h2>Examples</h2>
+                    <menu>
+                        <TabButton>Components</TabButton>
+                    </menu>
+                </section>
             </main>
         </div>
     )
 }
-
-export default App
