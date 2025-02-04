@@ -1,3 +1,4 @@
+import { memo } from "react"
 import "./Header.css"
 
 const reactDescriptions = ["Declarative", "Component-Based", "Learn Once, Write Anywhere"]
@@ -6,7 +7,7 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * (max + 1))
 }
 
-export default function Header({ img }) {
+function Header({ img }) {
     const description = reactDescriptions[getRandomInt(2)]
 
     return (
@@ -17,3 +18,5 @@ export default function Header({ img }) {
         </header>
     )
 }
+
+export default memo(Header)
