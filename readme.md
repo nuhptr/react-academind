@@ -1,9 +1,9 @@
 # React Academind Learn
 
-This learn using branch for every section
+Learn React from scratch with Maximilian Schwarzmüller on academind.
 
 ## List Branch
 
--   01-javascript-refresher
--   02-react-essentials
--   03-react-essentials-deep-dive
+### JavaScript Refresher
+
+Learn the basics of JavaScript. But not in depth. Just recall the basics.
