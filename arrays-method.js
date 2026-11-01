@@ -8,6 +8,6 @@ const findIndex = hobbies.findIndex((hobby) => hobby === "sports")
 console.log(findIndex) // 0
 
 const map = hobbies.map((hobby) => {
-    return { hobby: hobby }
+   return { hobby: hobby }
 })
-console.log(map) // [ 'Hobby: sports', 'Hobby: cooking', 'Hobby: reading', 'Hobby: coding' ]
+console.log(map) // [ { hobby: 'sports' }, { hobby: 'cooking' }, { hobby: 'reading' }, { hobby: 'coding' } ]
