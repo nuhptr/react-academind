@@ -1,7 +1,7 @@
 let userMessage = "Hello World"
 const userName = "John Doe"
 
-// If you change the value of userMessage, it will throw an error
+// If you change the value of userName, it will throw an error
 userMessage = "Hello Universe" // This will work because userMessage is declared with let
 // userName = "Jane Doe" // This will throw an error because userName is declared with const
 
