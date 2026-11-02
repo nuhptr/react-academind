@@ -1,4 +1,4 @@
-# React Academind Learning Journey
+# React Academind
 
 A hands-on repository for learning JavaScript and React, following the Academind course. Each topic is organized as a separate project area and tracked below.
 
