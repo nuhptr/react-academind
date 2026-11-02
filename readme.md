@@ -1,14 +1,46 @@
-# React Academind Learn
+# React Academind Learning Journey
 
-Learn React from scratch
+A hands-on repository for learning JavaScript and React, following the Academind course. Each topic is organized as a separate project area and tracked below.
 
-## Branches
+## Learning Roadmap
 
-- `master` — Main branch.
-- `01-javascript-refresher` — JavaScript refresher.
-- `02-essentials` — React essentials (current branch).
+| Module | Status | Topics covered |
+| --- | --- | --- |
+| JavaScript Refresher | Complete | Values, variables, operators, arrays, functions, objects, destructuring, spread syntax, and modules |
+| React Essentials | Complete | JSX, components, props, state, assets, and dynamic content |
 
-## Learning Progress
+The React Essentials project also includes interactive examples, responsive layouts, and styling with Tailwind CSS and shared design tokens.
 
-- [x] **JavaScript refresher** — Completed: reviewed variables, values, operators, arrays, functions, objects, destructuring, spread syntax, and imports/exports.
-- [x] **React essentials** — Completed: JSX, components, props, state, importing assets, and rendering dynamic content. Added interactive examples for core concepts and responsive layouts, migrated styles to Tailwind CSS, and centralized design values in CSS theme variables.
+## Projects
+
+```text
+.
+├── javascript/       # JavaScript refresher exercises and lesson images
+└── essentials/       # React essentials app, source, and lesson images
+```
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript (ES modules)
+- Bun
+
+## Getting Started
+
+Run the React Essentials app from its project directory:
+
+```bash
+cd essentials
+bun install
+bun run dev
+```
+
+Other available commands:
+
+```bash
+bun run lint
+bun run build
+bun run preview
+```
