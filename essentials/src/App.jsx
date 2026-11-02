@@ -6,7 +6,7 @@ import Example from "./components/main"
 
 const App = () => {
    return (
-      <main>
+      <main className="mx-auto w-content max-w-app">
          <Header />
          <Example />
       </main>
