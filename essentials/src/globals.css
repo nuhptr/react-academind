@@ -5,14 +5,16 @@
    --font-roboto-condensed: "Roboto Condensed", sans-serif;
 
    --color-heading: #a18aba;
+   --color-page-text: #ebe7ef;
+
    --color-example-panel: #2f1d43;
 
-   --color-tab-text: #ebe7ef;
    --color-tab-active: #7925d3;
    --color-tab-hover: #1b082f;
 
    --color-concept-panel: #140524;
    --color-concept-description: #8964b0;
+
    --text-concept-title: 1.17em;
    --text-concept-description: 0.9rem;
    --shadow-concept: 0 2px 8px rgba(0, 0, 0, 0.4);
