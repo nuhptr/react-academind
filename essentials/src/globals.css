@@ -1,33 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+@import "tailwindcss";
 
-* {
-   box-sizing: border-box;
+@theme {
+   --font-quicksand: "Quicksand", sans-serif;
+   --font-roboto-condensed: "Roboto Condensed", sans-serif;
+
+   --color-heading: #a18aba;
+   --color-example-panel: #2f1d43;
+
+   --color-tab-text: #ebe7ef;
+   --color-tab-active: #7925d3;
+   --color-tab-hover: #1b082f;
+
+   --color-concept-panel: #140524;
+   --color-concept-description: #8964b0;
+   --text-concept-title: 1.17em;
+   --text-concept-description: 0.9rem;
+   --shadow-concept: 0 2px 8px rgba(0, 0, 0, 0.4);
+
+   --container-app: 55rem;
+   --width-content: 90%;
+}
+
+:root {
+   --gradient-page: radial-gradient(#280a48, #20043d);
 }
 
 html {
-   font-family: "Quicksand", sans-serif;
-   line-height: 1.5;
-
-   color: #ebe7ef;
-   background: radial-gradient(#280a48, #20043d);
-
+   background: var(--gradient-page);
    font-synthesis: none;
    text-rendering: optimizeLegibility;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-   -webkit-text-size-adjust: 100%;
-   min-height: 100vh;
-}
 
-main {
-   width: 90%;
-   max-width: 55rem;
-   margin: auto;
-
-   h2 {
-      text-align: center;
-      font-family: "Roboto Condensed", sans-serif;
-      margin: 0 0 1.5rem 0;
-      color: #a18aba;
-   }
+   @apply min-h-screen font-quicksand leading-normal text-page-text antialiased;
 }
