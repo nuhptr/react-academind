@@ -1,6 +1,6 @@
 # React Academind Learn
 
-Learn React from scratch with Maximilian Schwarzmüller on academind.
+Learn React from scratch
 
 ## Branches
 
