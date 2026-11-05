@@ -1,13 +1,13 @@
-# React Academind Learning Journey
+# React Academind
 
 A hands-on repository for learning JavaScript and React, following the Academind course. Each topic is organized as a separate project area and tracked below.
 
 ## Learning Roadmap
 
-| Module | Status | Topics covered |
-| --- | --- | --- |
+| Module               | Status   | Topics covered                                                                                      |
+| -------------------- | -------- | --------------------------------------------------------------------------------------------------- |
 | JavaScript Refresher | Complete | Values, variables, operators, arrays, functions, objects, destructuring, spread syntax, and modules |
-| React Essentials | Complete | JSX, components, props, state, assets, and dynamic content |
+| React Essentials     | Complete | JSX, components, props, state, assets, and dynamic content                                          |
 
 The React Essentials project also includes interactive examples, responsive layouts, and styling with Tailwind CSS and shared design tokens.
 
